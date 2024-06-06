@@ -1,0 +1,17 @@
+
+–python:S116"RRename this field "fechaFinal" to match the regular expression ^[_a-z][_a-z0-9]*$.(°öÌÇ8êØôşş1J$247b0242-4bf0-4bc7-a86b-248c7760d75b
+œpython:S116
+"SRename this field "fechaInicio" to match the regular expression ^[_a-z][_a-z0-9]*$.(æ¶Ïäÿÿÿÿÿ8êØôşş1J$096df33a-d365-4642-af1c-3297cf03260f
+”python:S116"QRename this field "tipoViaje" to match the regular expression ^[_a-z][_a-z0-9]*$.(ÃŠœn8êØôşş1J$f7fec334-586a-4b61-9299-4d56f8ffb88f
+¢python:S116"YRename this field "presupuestoDiario" to match the regular expression ^[_a-z][_a-z0-9]*$.(Æå÷ºúÿÿÿÿ8éØôşş1J$0e771995-9688-41df-a1f0-3d8e19d8980e
+špython:S117"VRename this parameter "fechaFinal" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ä¸º8ëØôşş1J$10ba43af-8827-4e00-8606-675e326644df
+›python:S117"WRename this parameter "fechaInicio" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ä¸º8ëØôşş1J$d016a6fa-fe94-48ed-91a9-6908d657d8f0
+¡python:S117"]Rename this parameter "presupuestoDiario" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ä¸º8ëØôşş1J$6877018e-e07f-4133-aff8-f9bcb9f10728
+™python:S117"URename this parameter "tipoViaje" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ä¸º8ìØôşş1J$1ce13ad0-d79c-4706-98d8-5743bbe1e4ac
+•python:S100"RRename method "registrarViaje" to match the regular expression ^[a-z_][a-z0-9_]*$.(µô›y8ìØôşş1J$79248eed-7975-45d9-be50-dc24882fd921
+•python:S100"QRename method "obtenerDivisa" to match the regular expression ^[a-z_][a-z0-9_]*$.(îÃÛÚ8ìØôşş1J$acbbfcfb-f04f-42c6-bcd5-d2b644897903
+¨python:S100%"_Rename method "calcularPresupuestoRestante" to match the regular expression ^[a-z_][a-z0-9_]*$.(òù‰İûÿÿÿÿ8íØôşş1J$b2e9d958-2023-4d4e-b834-bb1c621b2913
+™python:S100,"PRename method "agregarGasto" to match the regular expression ^[a-z_][a-z0-9_]*$.(ıïÉäıÿÿÿÿ8íØôşş1J$2214084d-a7da-415c-bf6b-12be3996917b
+špython:S1000"QRename method "eliminarGasto" to match the regular expression ^[a-z_][a-z0-9_]*$.(ïĞœşÿÿÿÿ8íØôşş1J$59c85c7f-3fdd-4924-8d26-5f6d99632b99
+¢python:S1004"YRename method "obtenerGastosPorFecha" to match the regular expression ^[a-z_][a-z0-9_]*$.(™‚¥Úûÿÿÿÿ8íØôşş1J$ca8dc8ff-dd20-4903-83e6-7730ec0c8158
+œpython:S1008"XRename method "obtenerGastosPorTipo" to match the regular expression ^[a-z_][a-z0-9_]*$.(™»‹8íØôşş1J$392ff17a-130b-4c6f-9dc2-04cc981b94ce
