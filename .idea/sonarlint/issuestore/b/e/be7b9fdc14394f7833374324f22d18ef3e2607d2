@@ -1,10 +1,10 @@
 
-špython:S116"QRename this field "tipoGasto" to match the regular expression ^[_a-z][_a-z0-9]*$.(‰¤«áûÿÿÿÿ8ãÈ÷şş1J$cef71684-39e1-471c-8936-9bbc7c983b46
-›python:S116"RRename this field "metodoPago" to match the regular expression ^[_a-z][_a-z0-9]*$.(É€‹¬úÿÿÿÿ8ãÈ÷şş1J$69075a00-fc30-462b-9ad7-d18393c73db5
-špython:S117"VRename this parameter "metodoPago" to match the regular expression ^[_a-z][a-z0-9_]*$.(î†ÀØ8äÈ÷şş1J$4a129fcc-802e-4101-9233-334ff1a8bad4
-™python:S117"URename this parameter "tipoGasto" to match the regular expression ^[_a-z][a-z0-9_]*$.(î†ÀØ8äÈ÷şş1J$d5b43411-618d-4bbc-9275-cbda58b66f45
-›python:S100"RRename method "registrarGasto" to match the regular expression ^[a-z_][a-z0-9_]*$.(Òƒ¹Èùÿÿÿÿ8åÈ÷şş1J$8613d7f9-4b01-4ecb-84d3-3847bf43379a
-œpython:S100"SRename method "convertirDivisa" to match the regular expression ^[a-z_][a-z0-9_]*$.(Ú•ĞÄûÿÿÿÿ8åÈ÷şş1J$fddad053-5c8a-4d26-a498-278314b64ac9
-œpython:S100 "SRename method "actualizarValor" to match the regular expression ^[a-z_][a-z0-9_]*$.(Ñåûÿÿÿÿ8æÈ÷şş1J$6c1142f8-7f82-4393-ad63-9e0d5a501468
-¡python:S100$"XRename method "actualizarMetodoPago" to match the regular expression ^[a-z_][a-z0-9_]*$.(·©ßåúÿÿÿÿ8æÈ÷şş1J$a29af676-4870-4e2b-8d56-b66e0aeb4f03
- python:S100("WRename method "actualizarTipoGasto" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÈõÎ¤øÿÿÿÿ8æÈ÷şş1J$a6f1203a-9218-409b-8fb9-e06250f5a769
+›python:S116"RRename this field "metodoPago" to match the regular expression ^[_a-z][_a-z0-9]*$.(É€‹¬úÿÿÿÿ8ãÈ÷şş1J$1218de8e-d830-475d-b3c7-a2b33e263f5e
+špython:S116"QRename this field "tipoGasto" to match the regular expression ^[_a-z][_a-z0-9]*$.(‰¤«áûÿÿÿÿ8ãÈ÷şş1J$d43ad16c-af69-4333-bb17-a890690a690c
+špython:S117	"VRename this parameter "metodoPago" to match the regular expression ^[_a-z][a-z0-9_]*$.(î†ÀØ8äÈ÷şş1J$7a0e6683-ca70-400a-b4c5-ba01a941d81b
+™python:S117	"URename this parameter "tipoGasto" to match the regular expression ^[_a-z][a-z0-9_]*$.(î†ÀØ8äÈ÷şş1J$0b8963df-4803-4d3c-8290-10fa8b6e11ec
+›python:S100"RRename method "registrarGasto" to match the regular expression ^[a-z_][a-z0-9_]*$.(Òƒ¹Èùÿÿÿÿ8åÈ÷şş1J$acabff9b-7cf4-4a70-8850-cdac10f5b40e
+œpython:S100"SRename method "convertirDivisa" to match the regular expression ^[a-z_][a-z0-9_]*$.(Ú•ĞÄûÿÿÿÿ8åÈ÷şş1J$7d15e20c-b17f-40b8-82e7-8c7529845c13
+œpython:S100("SRename method "actualizarValor" to match the regular expression ^[a-z_][a-z0-9_]*$.(Ñåûÿÿÿÿ8æÈ÷şş1J$c4f1fdd1-a27a-4196-9a2a-8a941d377974
+¡python:S100."XRename method "actualizarMetodoPago" to match the regular expression ^[a-z_][a-z0-9_]*$.(·©ßåúÿÿÿÿ8æÈ÷şş1J$f9626606-1d4e-47d6-a6fb-1ca76c9326a4
+ python:S1004"WRename method "actualizarTipoGasto" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÈõÎ¤øÿÿÿÿ8Ùğà¯ÿ1J$25ad2bcc-bf0d-41a0-b02c-fbb795db9609

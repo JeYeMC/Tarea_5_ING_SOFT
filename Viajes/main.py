@@ -6,10 +6,13 @@ from tipo_viaje import TipoViaje
 from tipo_gasto import TipoGasto
 from metodo_pago import MetodoPago
 
+
+
 def main():
     control_viaje = ControlViaje()
     control_gasto = ControlGasto()
     control_reporte = ControlReporte()
+
 
     # Registro de un viaje
     destino = input("Ingrese el destino: ")
@@ -18,6 +21,8 @@ def main():
     presupuestoDiario = float(input("Ingrese el presupuesto diario: "))
     tipoViaje = TipoViaje[input("Ingrese el tipo de viaje (NACIONAL/INTERNACIONAL): ").upper()]
     viaje = control_viaje.registrarViaje(destino, fechaInicio, fechaFinal, presupuestoDiario, tipoViaje)
+
+
 
     while True:
         # Registro de un gasto
@@ -31,6 +36,7 @@ def main():
         otraEntrada = input("¿Desea registrar otro gasto? (sí/no): ")
         if otraEntrada.lower() != 'si':
             break
+
 
     # Generar reportes
     control_reporte.generarReporteDiario(viaje.gastos)

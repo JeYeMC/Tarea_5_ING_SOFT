@@ -3,6 +3,9 @@ from tipo_viaje import TipoViaje
 from divisas import Divisa
 from tipo_gasto import TipoGasto
 
+
+
+
 class Viaje:
     def __init__(self, destino, fechaInicio, fechaFinal, presupuestoDiario, tipoViaje: TipoViaje):
         """Inicializa un nuevo viaje con destino, fechas, presupuesto diario y tipo de viaje."""
@@ -13,6 +16,9 @@ class Viaje:
         self.tipoViaje = tipoViaje
         self.gastos = []
         self.divisa = self.obtenerDivisa()
+
+
+
 
     def registrarViaje(self):
         """Registra el viaje guardando la información en un archivo."""
@@ -25,6 +31,9 @@ class Viaje:
             file.write(f"Divisa: {self.divisa.value}\n\n")
         print(f"Viaje a {self.destino} registrado.")
 
+
+
+
     def obtenerDivisa(self):
         """Determina la divisa en función del destino y tipo de viaje."""
         if self.tipoViaje == TipoViaje.INTERNACIONAL:
@@ -34,6 +43,9 @@ class Viaje:
                 return Divisa.EUR
         return Divisa.COP
 
+
+
+
     def calcularPresupuestoRestante(self):
         """Calcula el presupuesto restante del viaje."""
         total_gastado = sum(gasto.valor for gasto in self.gastos)
@@ -41,17 +53,29 @@ class Viaje:
         presupuesto_restante = self.presupuestoDiario * dias_viaje - total_gastado
         return presupuesto_restante
 
+
+
+
     def agregarGasto(self, gasto):
         """Agrega un gasto a la lista de gastos del viaje."""
         self.gastos.append(gasto)
+
+
+
 
     def eliminarGasto(self, gasto):
         """Elimina un gasto de la lista de gastos del viaje."""
         self.gastos.remove(gasto)
 
+
+
+
     def obtenerGastosPorFecha(self, fecha):
         """Obtiene los gastos del viaje para una fecha específica."""
         return [gasto for gasto in self.gastos if gasto.fecha == fecha]
+
+
+
 
     def obtenerGastosPorTipo(self, tipo: TipoGasto):
         """Obtiene los gastos del viaje para un tipo de gasto específico."""

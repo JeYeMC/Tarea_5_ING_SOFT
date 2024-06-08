@@ -4,7 +4,63 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77a659dd-4fc1-433e-8bd3-d90c9ce9b55b" name="Changes" comment="Tarea 5 ingenieria de software , codigo preliminar" />
+    <list default="true" id="77a659dd-4fc1-433e-8bd3-d90c9ce9b55b" name="Changes" comment="Tarea 5 ingenieria de software , codigo preliminar">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d31bd3b2e2465974c04a1a1776d8bab91d453ac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0e659b6dc067a9e8d729848985fb11903f7a88d8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/17d3113006695ffca7fc1e1ef63a3a82ec832156" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/1970efa61ad7094856b7208736bccea99054266d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1dedba02c3e9eb31150954372f31e4153d523d0a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e9075f5bf079c01ef2c910709e91a497d262080" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a7df5bb9ec054d836054de2b9ca9beee34882c3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/44c1e41bbbef853fc1993b0d208799800644ffde" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/493d84f7a72061a3674f0a081b284581409ee3aa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c0709c9b6cb52b81b57fc6e3e95a0cd6d4b854c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d9412171583e258063717616d0a35618fc828e5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/59e3321c0eb4e8ff68dff094111fe27de396072a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/856a5fd8ed6181f64d1651b3bfaec9180af5657e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/9698860987f10fe5eb70700e2b3ab2215cb30ba5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/0/a029d7dc8491755b639318d224e9b8b903580926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a31a8b34982e42c22805896e5c8e17415163f791" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a3b2bbd30b315186e4b2dca13c43b23afe7d432f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/4/a463b3478d05e6619f86f8fd019df95806b28abe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b4f77d03ee47fb83fb4b83c4bb073bb5ba0161a1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b58a0677868503201074e965423d875803239017" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/9/d92a88a095f89f8af54814e050ea63691ab089c8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/ebdd0e7b0a4cccbf261a9b777bb6f140a86505e8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/d/0d31bd3b2e2465974c04a1a1776d8bab91d453ac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/e/0e659b6dc067a9e8d729848985fb11903f7a88d8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/7/17d3113006695ffca7fc1e1ef63a3a82ec832156" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/9/1970efa61ad7094856b7208736bccea99054266d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/d/1dedba02c3e9eb31150954372f31e4153d523d0a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/e/1e9075f5bf079c01ef2c910709e91a497d262080" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/a/2a7df5bb9ec054d836054de2b9ca9beee34882c3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/4/44c1e41bbbef853fc1993b0d208799800644ffde" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/9/493d84f7a72061a3674f0a081b284581409ee3aa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/c/4c0709c9b6cb52b81b57fc6e3e95a0cd6d4b854c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/d/4d9412171583e258063717616d0a35618fc828e5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/9/59e3321c0eb4e8ff68dff094111fe27de396072a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/5/856a5fd8ed6181f64d1651b3bfaec9180af5657e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/6/9698860987f10fe5eb70700e2b3ab2215cb30ba5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/0/a029d7dc8491755b639318d224e9b8b903580926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/3/a31a8b34982e42c22805896e5c8e17415163f791" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/3/a3b2bbd30b315186e4b2dca13c43b23afe7d432f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/4/a463b3478d05e6619f86f8fd019df95806b28abe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/4/b4f77d03ee47fb83fb4b83c4bb073bb5ba0161a1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/5/b58a0677868503201074e965423d875803239017" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/9/d92a88a095f89f8af54814e050ea63691ab089c8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/b/ebdd0e7b0a4cccbf261a9b777bb6f140a86505e8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0f98df2400ce06dd47ae8843e5780405dc428f2f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0f98df2400ce06dd47ae8843e5780405dc428f2f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be7b9fdc14394f7833374324f22d18ef3e2607d2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be7b9fdc14394f7833374324f22d18ef3e2607d2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Viajes/control_gasto.py" beforeDir="false" afterPath="$PROJECT_DIR$/Viajes/control_gasto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Viajes/control_reporte.py" beforeDir="false" afterPath="$PROJECT_DIR$/Viajes/control_reporte.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Viajes/gasto.py" beforeDir="false" afterPath="$PROJECT_DIR$/Viajes/gasto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Viajes/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Viajes/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Viajes/viaje.py" beforeDir="false" afterPath="$PROJECT_DIR$/Viajes/viaje.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,18 +75,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/JeYeMC/Tarea_5_ING_SOFT.git",
-    "accountId": "b51eac79-4593-4e76-a48e-79e2afe064d0"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/JeYeMC/Tarea_5_ING_SOFT.git&quot;,
+    &quot;accountId&quot;: &quot;b51eac79-4593-4e76-a48e-79e2afe064d0&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2hWhNUi17NUNRDKQ6r9B4tbyKgR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -39,6 +97,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.main (1).executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -142,16 +201,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tarea 5 ingenieria de software , codigo preliminar" />
     <option name="LAST_COMMIT_MESSAGE" value="Tarea 5 ingenieria de software , codigo preliminar" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Viajes/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
