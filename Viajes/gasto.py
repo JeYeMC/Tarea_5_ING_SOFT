@@ -14,8 +14,8 @@ class Gasto:
 
     def registrarGasto(self):
         """Registra el gasto guardando la información en un archivo."""
-        with open('gastos.txt', 'a') as file:
-            file.write(f"Fecha: {self.fecha.strftime('%Y-%m-%d')}, Valor: {self.valor}, Método de Pago: {self.metodoPago.value}, Tipo de Gasto: {self.tipoGasto.value}, Divisa: {self.divisa.value}\n")
+        with open('gastosViaje.txt', 'a') as file:
+            file.write(f"Fecha: {self.fecha.strftime('%Y-%m-%d')}, Valor: {self.valor}, Método de Pago: {self.metodoPago.value}, Tipo de Gasto: {self.tipoGasto.value}, Divisa: {self.divisa.value}\n\n\n\n")
         print(f"Gasto de {self.valor} registrado en {self.tipoGasto.value}.")
 
     def convertirDivisa(self):

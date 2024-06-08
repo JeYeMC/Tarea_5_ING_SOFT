@@ -16,13 +16,13 @@ class Viaje:
 
     def registrarViaje(self):
         """Registra el viaje guardando la información en un archivo."""
-        with open('viaje.txt', 'w') as file:
+        with open('gastosViaje.txt', 'a') as file:
             file.write(f"Destino: {self.destino}\n")
             file.write(f"Fecha de Inicio: {self.fechaInicio.strftime('%Y-%m-%d')}\n")
             file.write(f"Fecha Final: {self.fechaFinal.strftime('%Y-%m-%d')}\n")
             file.write(f"Presupuesto Diario: {self.presupuestoDiario}\n")
             file.write(f"Tipo de Viaje: {self.tipoViaje.value}\n")
-            file.write(f"Divisa: {self.divisa.value}\n")
+            file.write(f"Divisa: {self.divisa.value}\n\n")
         print(f"Viaje a {self.destino} registrado.")
 
     def obtenerDivisa(self):
