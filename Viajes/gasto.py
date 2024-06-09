@@ -21,8 +21,7 @@ class Gasto:
     def convertirDivisa(self):
         """Convierte el valor del gasto a pesos colombianos si la divisa no es COP."""
         if self.divisa != Divisa.COP:
-            response = requests.get(
-                "https://csrng.net/csrng/csrng.php?min=3500&max=4500")
+            response = requests.get("https://csrng.net/csrng/csrng.php?min=3500&max=4500", timeout=5)
             tasa_cambio = response.json()[0]['random']
             if self.divisa == Divisa.USD:
                 self.valor *= tasa_cambio
@@ -41,3 +40,5 @@ class Gasto:
     def actualizarTipoGasto(self, tipo: TipoGasto):
         """Actualiza el tipo de gasto."""
         self.tipoGasto = tipo
+
+    
