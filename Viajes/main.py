@@ -30,8 +30,9 @@ def main():
         valor = float(input("Ingrese el valor del gasto: "))
         metodoPago = MetodoPago[input("Ingrese el método de pago (EFECTIVO/TARJETA): ").upper()]
         tipoGasto = TipoGasto[input("Ingrese el tipo de gasto (TRANSPORTE/ALOJAMIENTO/ALIMENTACION/ENTRETENIMIENTO/COMPRAS): ").upper()]
-        gasto = control_gasto.registrarGasto(fecha, valor, metodoPago, tipoGasto, viaje.divisa)
+        gasto = control_gasto.registrar_gasto(fecha, valor, metodoPago, tipoGasto, viaje.divisa)
         control_viaje.agregarGasto(viaje, gasto)
+        print(f"Presupuesto restante: {viaje.calcularPresupuestoRestanteDia(fecha)}")
 
         otraEntrada = input("¿Desea registrar otro gasto? (sí/no): ")
         if otraEntrada.lower() != 'si':
@@ -39,8 +40,8 @@ def main():
 
 
     # Generar reportes
-    control_reporte.generarReporteDiario(viaje.gastos)
-    control_reporte.generarReportePorTipo(viaje.gastos)
+    control_reporte.generar_reporte_diario(viaje)
+    control_reporte.generarr_reporte_por_tipo(viaje)
 
 if __name__ == '__main__':
     main()

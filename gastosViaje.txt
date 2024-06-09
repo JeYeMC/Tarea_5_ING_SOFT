@@ -1,0 +1,28 @@
+
+
+
+Destino: rgrg
+Fecha de Inicio: 2024-08-12
+Fecha Final: 2024-08-22
+Presupuesto Diario: 100000.0
+Tipo de Viaje: nacional
+Divisa: COP
+Fecha: 2024-08-12, Valor: 10000.0, Metodo de Pago: efectivo, Tipo de Gasto: compras, Divisa: COP
+
+Fecha: 2024-08-12, Valor: 10000.0, Metodo de Pago: tarjeta, Tipo de Gasto: entretenimiento, Divisa: COP
+
+Fecha: 2024-08-12, Valor: 5000.0, Metodo de Pago: efectivo, Tipo de Gasto: transporte, Divisa: COP
+
+Fecha: 2024-08-12, Valor: 30000.0, Metodo de Pago: tarjeta, Tipo de Gasto: compras, Divisa: COP
+
+
+
+
+Destino: efsefes
+Fecha de Inicio: 2024-08-12
+Fecha Final: 2024-08-22
+Presupuesto Diario: 100000.0
+Tipo de Viaje: nacional
+Divisa: COP
+Fecha: 2024-08-12, Valor: 10000.0, Metodo de Pago: efectivo, Tipo de Gasto: compras, Divisa: COP
+

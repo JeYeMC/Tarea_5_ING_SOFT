@@ -1,0 +1,2 @@
+Tipo: entretenimiento, Efectivo: 0, Tarjeta: 10000.0, Total: 10000.0
+
