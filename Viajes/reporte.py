@@ -17,13 +17,11 @@ class Reporte:
             else:
                 reporte[gasto.fecha]['tarjeta'] += gasto.valor
 
+        with open("reporteDiario.txt", 'a') as file:
+            file.write(f"Viaje a: {self.destino}\n")
+
         for fecha, valores in reporte.items():
-
-            fecha_formateada = str(fecha).split(' ')
-            filename = f"reporteDiario_{fecha_formateada[0]}.txt"
-
-            with open(filename, 'a') as file:
-                file.write(f"Viaje a: {self.destino}\n")
+            with open("reporteDiario.txt", 'a') as file:
                 file.write(f"Fecha: {fecha}, Efectivo: {valores['efectivo']}, Tarjeta: {valores['tarjeta']}, Total: {valores['efectivo'] + valores['tarjeta']}\n\n")
                 
 
@@ -37,8 +35,10 @@ class Reporte:
                 reporte[gasto.tipoGasto.value]['efectivo'] += gasto.valor
             else:
                 reporte[gasto.tipoGasto.value]['tarjeta'] += gasto.valor
+        with open("reportePorTipo.txt", 'a') as file:
+            file.write(f"Viaje a: {self.destino}\n")
 
         for tipo, valores in reporte.items():
-            with open(f'reportePorTipo{str(tipo)}.txt', 'a') as file:
-                file.write(f"Viaje a: {self.destino}\n")
+            with open('reportePorTipo.txt', 'a') as file:
+                
                 file.write(f"Tipo: {tipo}, Efectivo: {valores['efectivo']}, Tarjeta: {valores['tarjeta']}, Total: {valores['efectivo'] + valores['tarjeta']}\n\n")

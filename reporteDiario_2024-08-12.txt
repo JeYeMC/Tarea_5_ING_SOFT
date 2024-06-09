@@ -1,3 +1,0 @@
-Viaje a: efsefes
-Fecha: 2024-08-12 00:00:00, Efectivo: 10000.0, Tarjeta: 0, Total: 10000.0
-
