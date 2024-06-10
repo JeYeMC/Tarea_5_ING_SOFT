@@ -1,3 +1,10 @@
-Viaje a: dvgd
-Tipo: transporte, Efectivo: 10000.0, Tarjeta: 0, Total: 10000.0
+Viaje a: Bogota
+Tipo: compras, Efectivo: 10000.0, Tarjeta: 0, Total: 10000.0
+
+Tipo: alojamiento, Efectivo: 0, Tarjeta: 20000.0, Total: 20000.0
+
+Viaje a: Europa
+Tipo: compras, Efectivo: 10000.0, Tarjeta: 0, Total: 10000.0
+
+Tipo: transporte, Efectivo: 0, Tarjeta: 20000.0, Total: 20000.0
 

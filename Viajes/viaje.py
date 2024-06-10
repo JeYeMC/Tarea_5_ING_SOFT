@@ -22,7 +22,7 @@ class Viaje:
     def registrar_viaje_archivo(self):
         """Registra el viaje guardando la información en un archivo."""
         try:
-            with open('gastosViaje.txt', 'a') as file:
+            with open('gastosViaje.txt', 'w') as file:
                 file.write("\n\n\nDatos Viaje:\n")
                 file.write(f"Destino: {self.destino}\n")
                 file.write(f"Fecha de Inicio: {self.fecha_inicio.strftime('%Y-%m-%d')}\n")

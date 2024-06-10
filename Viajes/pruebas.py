@@ -35,7 +35,7 @@ class TestViaje(unittest.TestCase):
     def test_agregar_gasto(self):
         gasto = Gasto(datetime(2024, 6, 2), 50000, MetodoPago.EFECTIVO, TipoGasto.TRANSPORTE, Divisa.COP)
         try:
-            self.viaje_nacional.agregar_gasto()
+            self.viaje_nacional.agregar_gasto(gasto)
             self.assertIn(gasto, self.viaje_nacional.gastos)
         except FechaError as e:
             self.fail(f"Error al agregar gasto: {e}")

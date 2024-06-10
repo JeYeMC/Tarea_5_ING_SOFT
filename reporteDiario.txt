@@ -1,3 +1,10 @@
-Viaje a: dvgd
-Fecha: 2024-08-26 00:00:00, Efectivo: 10000.0, Tarjeta: 0, Total: 10000.0
+Viaje a: Bogota
+Fecha: 2024-06-01 00:00:00, Efectivo: 10000.0, Tarjeta: 0, Total: 10000.0
+
+Fecha: 2024-06-02 00:00:00, Efectivo: 0, Tarjeta: 20000.0, Total: 20000.0
+
+Viaje a: Europa
+Fecha: 2024-06-01 00:00:00, Efectivo: 10000.0, Tarjeta: 0, Total: 10000.0
+
+Fecha: 2024-06-02 00:00:00, Efectivo: 0, Tarjeta: 20000.0, Total: 20000.0
 

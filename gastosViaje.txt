@@ -1,11 +1,18 @@
 
 
 
-Destino: dvgd
-Fecha de Inicio: 2024-08-22
-Fecha Final: 2024-08-28
-Presupuesto Diario: 20000.0
+Datos Viaje:
+Destino: Europa
+Fecha de Inicio: 2024-06-01
+Fecha Final: 2024-06-10
+Presupuesto Diario: 100000.0
 Tipo de Viaje: nacional
 Divisa: COP
-Fecha: 2024-08-26, Valor: 10000.0, Metodo de Pago: efectivo, Tipo de Gasto: transporte, Divisa: COP
+
+Datos Gastos:
+Fecha: 2024-06-01, Valor: 10000.0, Metodo de Pago: efectivo, Tipo de Gasto: compras, Divisa: COP
+
+
+Datos Gastos:
+Fecha: 2024-06-02, Valor: 20000.0, Metodo de Pago: tarjeta, Tipo de Gasto: transporte, Divisa: COP
 
