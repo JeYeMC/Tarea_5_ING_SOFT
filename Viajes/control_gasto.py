@@ -12,7 +12,7 @@ class ControlGasto:
         """Crea y registra un nuevo gasto."""
         gasto = Gasto(fecha, valor, metodo_pago, tipo_gasto, divisa)
         gasto.convertirDivisa()
-        gasto.registrarGasto()
+        gasto.registrarGastoArchivo()
         return gasto
 
     def convertir_divisa(self, gasto):

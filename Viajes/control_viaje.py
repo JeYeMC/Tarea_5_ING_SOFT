@@ -9,8 +9,9 @@ class ControlViaje:
         """Crea y registra un nuevo viaje."""
         if fechaInicio > fechaFinal:
             raise ValueError("La fecha de inicio debe ser anterior a la fecha final.")
+        
         viaje = Viaje(destino, fechaInicio, fechaFinal, presupuestoDiario, tipoViaje)
-        viaje.registrarViaje()
+        viaje.registrarViajeArchivo()
         return viaje
 
     def obtenerGastos(self, viaje):

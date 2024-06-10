@@ -5,6 +5,7 @@ from metodo_pago import MetodoPago
 
 
 class Gasto:
+    """Clase que representa un gasto en un viaje"""
     def __init__(self, fecha, valor, metodoPago: MetodoPago, tipoGasto: TipoGasto, divisa: Divisa):
         """Inicializa un nuevo gasto con la fecha, valor, metodo de pago, tipo de gasto y divisa."""
         self.fecha = fecha
@@ -13,7 +14,7 @@ class Gasto:
         self.tipoGasto = tipoGasto
         self.divisa = divisa
 
-    def registrarGasto(self):
+    def registrarGastoArchivo(self):
         """Registra el gasto guardando la información en un archivo."""
         with open('gastosViaje.txt', 'a') as file:
             file.write(f"Fecha: {self.fecha.strftime('%Y-%m-%d')}, Valor: {self.valor}, Metodo de Pago: {self.metodoPago.value}, Tipo de Gasto: {self.tipoGasto.value}, Divisa: {self.divisa.value}\n\n")

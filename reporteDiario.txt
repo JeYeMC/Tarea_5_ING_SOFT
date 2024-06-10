@@ -1,8 +1,0 @@
-Viaje a: ugrbg
-Fecha: 2024-08-12 00:00:00, Efectivo: 10000.0, Tarjeta: 10000.0, Total: 20000.0
-
-Viaje a: ugrbg
-Fecha: 2024-08-12 00:00:00, Efectivo: 10000.0, Tarjeta: 0, Total: 10000.0
-
-Fecha: 2024-08-13 00:00:00, Efectivo: 0, Tarjeta: 10000.0, Total: 10000.0
-

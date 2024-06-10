@@ -16,7 +16,6 @@ def main():
     control_gasto = ControlGasto()
     control_reporte = ControlReporte()
 
-
     # Registro de un viaje
     destino = input("Ingrese el destino: ")
     fechaInicio = datetime.strptime(input("Ingrese la fecha de inicio (YYYY-MM-DD): "), '%Y-%m-%d')
@@ -35,7 +34,7 @@ def main():
         fecha = datetime.strptime(input("Ingrese la fecha del gasto (YYYY-MM-DD): "), '%Y-%m-%d')
 
         if fecha < fechaInicio or fecha > fechaFinal:
-            print("La fecha del gasto no está dentro del rango del viaje.")
+            print("La fecha del gasto no está dentro del rango del viaje")
             continue
 
         valor = float(input("Ingrese el valor del gasto: "))

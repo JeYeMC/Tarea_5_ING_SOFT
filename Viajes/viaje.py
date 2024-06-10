@@ -18,7 +18,7 @@ class Viaje:
         self.divisa = self.obtenerDivisa()
 
 
-    def registrarViaje(self):
+    def registrarViajeArchivo(self):
         """Registra el viaje guardando la información en un archivo."""
         with open('gastosViaje.txt', 'a') as file:
             file.write(f"\n\n\nDestino: {self.destino}\n")
