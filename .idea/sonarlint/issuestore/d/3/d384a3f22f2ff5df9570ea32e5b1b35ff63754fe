@@ -1,9 +1,9 @@
 
-¤python:S1176"[Rename this local variable "fechaFinal" to match the regular expression ^[_a-z][a-z0-9_]*$.(»†Óûÿÿÿÿ8Ìıÿ1J$ab3a18f2-deff-4158-a0df-ce92f4b5906f
-¥python:S1175"\Rename this local variable "fechaInicio" to match the regular expression ^[_a-z][a-z0-9_]*$.(©Ç‡“şÿÿÿÿ8Ìıÿ1J$c2534c3d-dde2-468b-9ae5-f0d035e75b4a
-¤python:S117R"[Rename this local variable "metodoPago" to match the regular expression ^[_a-z][a-z0-9_]*$.(ı÷¥şúÿÿÿÿ8ŸÌıÿ1J$0851e67e-10f1-4f64-9317-8f70c65d0d49
-¥python:S117]"\Rename this local variable "otraEntrada" to match the regular expression ^[_a-z][a-z0-9_]*$.(ùìûüÿÿÿÿ8ŸÌıÿ1J$ca94d9f1-0d72-4ed7-ae03-7676b368098f
-¦python:S1177"bRename this local variable "presupuestoDiario" to match the regular expression ^[_a-z][a-z0-9_]*$.(³¤—ä8ŸÌıÿ1J$0d4921d1-bb2e-4668-b809-1528adc42277
-£python:S117S"ZRename this local variable "tipoGasto" to match the regular expression ^[_a-z][a-z0-9_]*$.(Üú€¡ıÿÿÿÿ8ŸÌıÿ1J$f05c6180-736a-400c-b957-c8b50c782da2
-£python:S1178"ZRename this local variable "tipoViaje" to match the regular expression ^[_a-z][a-z0-9_]*$.(°Ñ„‰üÿÿÿÿ8ŸÌıÿ1J$1ee1bdac-169f-4695-a990-2109cf306111
-˜python:S3776*"TRefactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.(œŸ²_8ŸÌıÿ1J$1ba793d9-d4a1-45b0-8142-4de6dcc7836f
+¤python:S1176"[Rename this local variable "fechaFinal" to match the regular expression ^[_a-z][a-z0-9_]*$.(»†Óûÿÿÿÿ8Ìıÿ1J$34d61d8c-35a1-4dfa-815e-68fc4434589f
+¥python:S1175"\Rename this local variable "fechaInicio" to match the regular expression ^[_a-z][a-z0-9_]*$.(©Ç‡“şÿÿÿÿ8Ìıÿ1J$4fd5ba0e-d891-4a7c-bacb-77f076285239
+¤python:S117R"[Rename this local variable "metodoPago" to match the regular expression ^[_a-z][a-z0-9_]*$.(ı÷¥şúÿÿÿÿ8ŸÌıÿ1J$db7be6b3-0473-4e9a-9703-1c29c66e7d0c
+¥python:S117\"\Rename this local variable "otraEntrada" to match the regular expression ^[_a-z][a-z0-9_]*$.(ùìûüÿÿÿÿ8ŸÌıÿ1J$9f7876ff-477e-45c5-9ac3-edf305eb4d5c
+¦python:S1177"bRename this local variable "presupuestoDiario" to match the regular expression ^[_a-z][a-z0-9_]*$.(³¤—ä8ŸÌıÿ1J$f254d7dd-0db5-43a8-9990-0db6fb52e740
+£python:S117S"ZRename this local variable "tipoGasto" to match the regular expression ^[_a-z][a-z0-9_]*$.(Üú€¡ıÿÿÿÿ8ŸÌıÿ1J$732d0782-25ed-48cb-8be8-1ec57f6e19a2
+£python:S1178"ZRename this local variable "tipoViaje" to match the regular expression ^[_a-z][a-z0-9_]*$.(°Ñ„‰üÿÿÿÿ8ŸÌıÿ1J$a390c24e-a8b3-47e1-807c-3c86fb862100
+˜python:S3776*"TRefactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.(œŸ²_8ŸÌıÿ1J$1dd9ee75-1884-40d0-a550-91e9ffa31601
