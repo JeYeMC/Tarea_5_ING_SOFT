@@ -1,14 +1,23 @@
 from reporte import Reporte
+from excepciones import ViajeError
 
 class ControlReporte:
-    def generar_reporte_diario(self, viaje):
+    def generarReporteDiario(self, viaje):
         """Genera un reporte diario de los gastos."""
-        reporte = Reporte(viaje)
-        reporte.generarReporteDiario()
-        return reporte
+        try:
+            reporte = Reporte(viaje)
+            reporte.generarReporteDiario()
+            return reporte
+        except ViajeError as e:
+            print(f"Error al generar el reporte diario: {e}")
+            return None
 
-    def generarr_reporte_por_tipo(self, viaje):
+    def generarReportePorTipo(self, viaje):
         """Genera un reporte de los gastos por tipo."""
-        reporte = Reporte(viaje)
-        reporte.generarReportePorTipo()
-        return reporte
+        try:
+            reporte = Reporte(viaje)
+            reporte.generarReportePorTipo()
+            return reporte
+        except ViajeError as e:
+            print(f"Error al generar el reporte por tipo: {e}")
+            return None

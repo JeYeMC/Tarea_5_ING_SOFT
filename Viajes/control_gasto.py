@@ -1,20 +1,25 @@
-"""Módulo que controla la creación y conversión de gastos"""
 from gasto import Gasto
 from divisas import Divisa
 from tipo_gasto import TipoGasto
 from metodo_pago import MetodoPago
-
+from excepciones import GastoError,DivisaError
 
 class ControlGasto:
-    """Clase que controla la creación y conversion de gastos"""
-
-    def registrar_gasto(self, fecha, valor, metodo_pago: MetodoPago, tipo_gasto: TipoGasto, divisa: Divisa):
+    def registrarGasto(self, fecha, valor, metodoPago: MetodoPago, tipoGasto: TipoGasto, divisa: Divisa):
         """Crea y registra un nuevo gasto."""
-        gasto = Gasto(fecha, valor, metodo_pago, tipo_gasto, divisa)
-        gasto.convertirDivisa()
-        gasto.registrarGastoArchivo()
-        return gasto
+        try:
+            gasto = Gasto(fecha, valor, metodoPago, tipoGasto, divisa)
+            gasto.convertirDivisa()
+            gasto.registrarGastoArchivo()
+            return gasto
+        except (GastoError, DivisaError) as e:
+            print(f"Error al registrar el gasto: {e}")
+            return None
 
-    def convertir_divisa(self, gasto):
+    def convertirDivisa(self, gasto):
         """Convierte la divisa de un gasto."""
-        return gasto.convertirDivisa()
+        try:
+            return gasto.convertirDivisa()
+        except DivisaError as e:
+            print(f"Error al convertir la divisa: {e}")
+            return gasto.valor

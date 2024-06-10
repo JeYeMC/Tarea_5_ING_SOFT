@@ -1,18 +1,17 @@
-"""Módulo que contiene la clase ControlViaje"""
 from viaje import Viaje
 from tipo_viaje import TipoViaje
+from excepciones import ViajeError,FechaError
 
 class ControlViaje:
-    """Clase que controla la creación de viajes"""
-
     def registrarViaje(self, destino, fechaInicio, fechaFinal, presupuestoDiario, tipoViaje: TipoViaje):
         """Crea y registra un nuevo viaje."""
-        if fechaInicio > fechaFinal:
-            raise ValueError("La fecha de inicio debe ser anterior a la fecha final.")
-        
-        viaje = Viaje(destino, fechaInicio, fechaFinal, presupuestoDiario, tipoViaje)
-        viaje.registrarViajeArchivo()
-        return viaje
+        try:
+            viaje = Viaje(destino, fechaInicio, fechaFinal, presupuestoDiario, tipoViaje)
+            viaje.registrarViajeArchivo()
+            return viaje
+        except (ViajeError, FechaError) as e:
+            print(f"Error al registrar el viaje: {e}")
+            return None
 
     def obtenerGastos(self, viaje):
         """Obtiene la lista de gastos de un viaje."""
@@ -20,4 +19,7 @@ class ControlViaje:
 
     def agregarGasto(self, viaje, gasto):
         """Agrega un gasto a la lista de gastos de un viaje."""
-        viaje.agregarGasto(gasto)
+        try:
+            viaje.agregarGasto(gasto)
+        except FechaError as e:
+            print(f"Error al agregar el gasto: {e}")
