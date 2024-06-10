@@ -50,47 +50,50 @@ def main():
 
     # Registro de un viaje
     destino = input("Ingrese el destino: ")
-    fechaInicio = solicitar_fecha("Ingrese la fecha de inicio (YYYY-MM-DD): ")
-    fechaFinal = solicitar_fecha("Ingrese la fecha final (YYYY-MM-DD): ")
-    presupuestoDiario = solicitar_float("Ingrese el presupuesto diario: ")
-    tipoViaje = solicitar_enum("Ingrese el tipo de viaje (NACIONAL/INTERNACIONAL): ", TipoViaje)
+    fecha_inicio = solicitar_fecha("Ingrese la fecha de inicio (YYYY-MM-DD): ")
+    fecha_final = solicitar_fecha("Ingrese la fecha final (YYYY-MM-DD): ")
+    presupuesto_diario = solicitar_float("Ingrese el presupuesto diario: ")
+    tipo_viaje = solicitar_enum("Ingrese el tipo de viaje (NACIONAL/INTERNACIONAL): ", TipoViaje)
 
     while True:
         try:
-            viaje = control_viaje.registrarViaje(destino, fechaInicio, fechaFinal, presupuestoDiario, tipoViaje)
+            viaje = control_viaje.registrar_viaje(destino, fecha_inicio, fecha_final, presupuesto_diario, tipo_viaje)
             if viaje is None:
                 raise ViajeError("No se pudo registrar el viaje.")
             break
         except (FechaError, ViajeError) as e:
             logging.error(e)
             print(f"Error: {e}. Por favor, intente registrar el viaje nuevamente.")
-            fechaInicio = solicitar_fecha("Ingrese la fecha de inicio (YYYY-MM-DD): ")
-            fechaFinal = solicitar_fecha("Ingrese la fecha final (YYYY-MM-DD): ")
-            presupuestoDiario = solicitar_float("Ingrese el presupuesto diario: ")
-            tipoViaje = solicitar_enum("Ingrese el tipo de viaje (NACIONAL/INTERNACIONAL): ", TipoViaje)
+            fecha_inicio = solicitar_fecha("Ingrese la fecha de inicio (YYYY-MM-DD): ")
+            fecha_final = solicitar_fecha("Ingrese la fecha final (YYYY-MM-DD): ")
+            presupuesto_diario = solicitar_float("Ingrese el presupuesto diario: ")
+            tipo_viaje = solicitar_enum("Ingrese el tipo de viaje (NACIONAL/INTERNACIONAL): ", TipoViaje)
 
     while True:
         try:
             # Registro de un gasto
             fecha = solicitar_fecha("Ingrese la fecha del gasto (YYYY-MM-DD): ")
 
-            if fecha < fechaInicio or fecha > fechaFinal:
+            if fecha < fecha_inicio or fecha > fecha_final:
                 print("La fecha del gasto no está dentro del rango del viaje")
                 continue
 
             valor = solicitar_float("Ingrese el valor del gasto: ")
-            metodoPago = solicitar_enum("Ingrese el método de pago (EFECTIVO/TARJETA): ", MetodoPago)
-            tipoGasto = solicitar_enum("Ingrese el tipo de gasto (TRANSPORTE/ALOJAMIENTO/ALIMENTACION/ENTRETENIMIENTO/COMPRAS): ", TipoGasto)
-            gasto = control_gasto.registrarGasto(fecha, valor, metodoPago, tipoGasto, viaje.divisa)
+            metodo_pago = solicitar_enum("Ingrese el método de pago (EFECTIVO/TARJETA): ", MetodoPago)
+            tipo_gasto = solicitar_enum("Ingrese el tipo de gasto "
+                                        "(TRANSPORTE/ALOJAMIENTO/ALIMENTACION/ENTRETENIMIENTO/COMPRAS): ",
+                                        TipoGasto)
+            gasto = control_gasto.registrar_gasto(fecha, valor, metodo_pago, tipo_gasto, viaje.divisa)
             if gasto is None:
                 raise GastoError("No se pudo registrar el gasto.")
-            control_viaje.agregarGasto(viaje, gasto)
+            control_viaje.agregar_gasto(viaje, gasto)
 
-            print(f"Presupuesto restante para el día {fecha.strftime('%Y-%m-%d')}: {viaje.calcularPresupuestoRestanteDia(fecha)}")
-            print(f"Presupuesto total: {viaje.calcularPresupuestoTotal()}")
+            print(f"Presupuesto restante para el día {fecha.strftime('%Y-%m-%d')}: "
+                  f"{viaje.calcular_presupuesto_restante_dia(fecha)}")
+            print(f"Presupuesto total: {viaje.calcular_presupuesto_total()}")
 
-            otraEntrada = input("¿Desea registrar otro gasto? (sí/no): ")
-            if otraEntrada.lower() != 'si':
+            otra_entrada = input("¿Desea registrar otro gasto? (sí/no): ")
+            if otra_entrada.lower() != 'si':
                 break
 
         except (FechaError, GastoError, DivisaError, ValueError) as e:
@@ -103,8 +106,8 @@ def main():
     while True:
         try:
             # Generar reportes
-            control_reporte.generarReporteDiario(viaje)
-            control_reporte.generarReportePorTipo(viaje)
+            control_reporte.generar_reporte_diario(viaje)
+            control_reporte.generar_reporte_por_tipo(viaje)
             break
         except ViajeError as e:
             logging.error(e)

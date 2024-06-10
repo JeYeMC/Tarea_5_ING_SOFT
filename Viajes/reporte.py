@@ -6,14 +6,14 @@ class Reporte:
         self.gastos = viaje.gastos
         self.destino = viaje.destino
 
-    def generarReporteDiario(self):
+    def generar_reporte_diario(self):
         """Genera un reporte diario de los gastos."""
         try:
             reporte = {}
             for gasto in self.gastos:
                 if gasto.fecha not in reporte:
                     reporte[gasto.fecha] = {'efectivo': 0, 'tarjeta': 0}
-                if gasto.metodoPago.value == 'efectivo':
+                if gasto.metodo_pago.value == 'efectivo':
                     reporte[gasto.fecha]['efectivo'] += gasto.valor
                 else:
                     reporte[gasto.fecha]['tarjeta'] += gasto.valor
@@ -27,17 +27,17 @@ class Reporte:
         except IOError as e:
             raise ViajeError(f"Error al generar el reporte diario: {e}")
 
-    def generarReportePorTipo(self):
+    def generar_reporte_por_tipo(self):
         """Genera un reporte de los gastos por tipo."""
         try:
             reporte = {}
             for gasto in self.gastos:
-                if gasto.tipoGasto.value not in reporte:
-                    reporte[gasto.tipoGasto.value] = {'efectivo': 0, 'tarjeta': 0}
-                if gasto.metodoPago.value == 'efectivo':
-                    reporte[gasto.tipoGasto.value]['efectivo'] += gasto.valor
+                if gasto.tipo_gasto.value not in reporte:
+                    reporte[gasto.tipo_gasto.value] = {'efectivo': 0, 'tarjeta': 0}
+                if gasto.metodo_pago.value == 'efectivo':
+                    reporte[gasto.tipo_gasto.value]['efectivo'] += gasto.valor
                 else:
-                    reporte[gasto.tipoGasto.value]['tarjeta'] += gasto.valor
+                    reporte[gasto.tipo_gasto.value]['tarjeta'] += gasto.valor
 
             with open("reportePorTipo.txt", 'a') as file:
                 file.write(f"Viaje a: {self.destino}\n")

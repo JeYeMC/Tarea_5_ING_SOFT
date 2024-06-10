@@ -1,8 +1,0 @@
-
-Ÿpython:S117"VRename this parameter "fechaFinal" to match the regular expression ^[_a-z][a-z0-9_]*$.(«ÄˆŠÿÿÿÿÿ8…è“üÿ1J$3bccee50-79f6-4068-bc40-64e05b517220
- python:S117"WRename this parameter "fechaInicio" to match the regular expression ^[_a-z][a-z0-9_]*$.(«ÄˆŠÿÿÿÿÿ8…è“üÿ1J$a784a176-ced0-43bb-9558-e68d746fa6d7
-¦python:S117"]Rename this parameter "presupuestoDiario" to match the regular expression ^[_a-z][a-z0-9_]*$.(«ÄˆŠÿÿÿÿÿ8…è“üÿ1J$b6b8184f-72ae-40e5-967d-6f02c251d45b
-žpython:S117"URename this parameter "tipoViaje" to match the regular expression ^[_a-z][a-z0-9_]*$.(«ÄˆŠÿÿÿÿÿ8†è“üÿ1J$9d3a7991-2bd0-4bbb-a95d-355de2048777
-›python:S100"RRename method "registrarViaje" to match the regular expression ^[a-z_][a-z0-9_]*$.(«ÄˆŠÿÿÿÿÿ8†è“üÿ1J$c58a3bb2-019d-4ea7-b1db-3bf1b65bdac9
-špython:S100"QRename method "obtenerGastos" to match the regular expression ^[a-z_][a-z0-9_]*$.(Ù¹·¥üÿÿÿÿ8†è“üÿ1J$bd886d87-4e66-43d1-a853-f1011c160891
-”python:S100"PRename method "agregarGasto" to match the regular expression ^[a-z_][a-z0-9_]*$.(ö«žÃ8†è“üÿ1J$963f2b63-5ef7-4047-9beb-de09010416f1

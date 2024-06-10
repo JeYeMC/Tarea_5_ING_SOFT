@@ -1,10 +1,0 @@
-
-špython:S116"QRename this field "tipoGasto" to match the regular expression ^[_a-z][_a-z0-9]*$.(‰¤«áûÿÿÿÿ8ûƒúûÿ1J$6978e68b-6dc3-487d-9a96-249384727be8
-›python:S116"RRename this field "metodoPago" to match the regular expression ^[_a-z][_a-z0-9]*$.(É€‹¬úÿÿÿÿ8ûƒúûÿ1J$54d06ce2-fd3d-4be1-9b2b-132957156bab
-špython:S117	"VRename this parameter "metodoPago" to match the regular expression ^[_a-z][a-z0-9_]*$.(î†ÀØ8ûƒúûÿ1J$4265c077-6fd1-495f-b707-56d45ac862e9
-™python:S117	"URename this parameter "tipoGasto" to match the regular expression ^[_a-z][a-z0-9_]*$.(î†ÀØ8ûƒúûÿ1J$c1b1b9b1-ef5a-4394-9083-381e5da570ab
-¢python:S100"YRename method "registrarGastoArchivo" to match the regular expression ^[a-z_][a-z0-9_]*$.(Ôò·óúÿÿÿÿ8üƒúûÿ1J$c0ece02d-96aa-4325-82e3-bc1d83f10e84
-œpython:S100"SRename method "convertirDivisa" to match the regular expression ^[a-z_][a-z0-9_]*$.(Ú•ĞÄûÿÿÿÿ8üƒúûÿ1J$a31fecef-7ae3-4daa-a24e-725a8d0a2e0c
-œpython:S100-"SRename method "actualizarValor" to match the regular expression ^[a-z_][a-z0-9_]*$.(Ñåûÿÿÿÿ8üƒúûÿ1J$80d54c50-003d-417e-bcf2-ede2b1858810
-¡python:S1003"XRename method "actualizarMetodoPago" to match the regular expression ^[a-z_][a-z0-9_]*$.(·©ßåúÿÿÿÿ8üƒúûÿ1J$8fe274cf-1761-42a4-92a0-78e5f0aeeea7
- python:S1007"WRename method "actualizarTipoGasto" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÈõÎ¤øÿÿÿÿ8üƒúûÿ1J$13b8608b-fe62-4a86-90e1-b515cf13ff8c

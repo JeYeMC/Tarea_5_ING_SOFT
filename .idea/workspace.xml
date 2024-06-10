@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77a659dd-4fc1-433e-8bd3-d90c9ce9b55b" name="Changes" comment="Se agregaron las excepciones y un manejo de los errores para que no se cierre el programa hasta que se ingrese toda la info correcta" />
+    <list default="true" id="77a659dd-4fc1-433e-8bd3-d90c9ce9b55b" name="Changes" comment="Se agregaron las excepciones y un manejo de los errores para que no se cierre el programa hasta que se ingrese toda la info correcta">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0f98df2400ce06dd47ae8843e5780405dc428f2f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0f98df2400ce06dd47ae8843e5780405dc428f2f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/3569982fb1917ca2fa408d324d303559f33f2a35" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/3569982fb1917ca2fa408d324d303559f33f2a35" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/581cf57c4c8993dff5245eaa5960656bd6527f43" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/581cf57c4c8993dff5245eaa5960656bd6527f43" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9b923d054e6392648f661c6435c8d1e5ff0268c2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9b923d054e6392648f661c6435c8d1e5ff0268c2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be7b9fdc14394f7833374324f22d18ef3e2607d2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be7b9fdc14394f7833374324f22d18ef3e2607d2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d384a3f22f2ff5df9570ea32e5b1b35ff63754fe" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d384a3f22f2ff5df9570ea32e5b1b35ff63754fe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e58d93e1852c8ba2b6cef01aa2c550fd8c434a24" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e58d93e1852c8ba2b6cef01aa2c550fd8c434a24" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Viajes/control_gasto.py" beforeDir="false" afterPath="$PROJECT_DIR$/Viajes/control_gasto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Viajes/control_reporte.py" beforeDir="false" afterPath="$PROJECT_DIR$/Viajes/control_reporte.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Viajes/control_viaje.py" beforeDir="false" afterPath="$PROJECT_DIR$/Viajes/control_viaje.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Viajes/gasto.py" beforeDir="false" afterPath="$PROJECT_DIR$/Viajes/gasto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Viajes/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Viajes/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Viajes/pruebas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Viajes/pruebas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Viajes/reporte.py" beforeDir="false" afterPath="$PROJECT_DIR$/Viajes/reporte.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Viajes/viaje.py" beforeDir="false" afterPath="$PROJECT_DIR$/Viajes/viaje.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,12 +38,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "JeYeMC"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JeYeMC&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/JeYeMC/Tarea_5_ING_SOFT.git&quot;,
@@ -45,27 +62,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python tests.Python tests for pruebas.TestViaje.executor": "Run",
-    "Python tests.Python tests for pruebas.TestViaje.test_calcular_presupuesto_restante.executor": "Run",
-    "Python tests.Python tests for pruebas.TestViaje.test_registrar_viaje_nacional.executor": "Run",
-    "Python.main (1).executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for pruebas.TestViaje.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for pruebas.TestViaje.test_calcular_presupuesto_restante.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for pruebas.TestViaje.test_registrar_viaje_nacional.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\felipe\PycharmProjects\Tarea_5\Viajes" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Tarea_5" />
       <option name="ENV_FILES" value="" />

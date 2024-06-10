@@ -5,18 +5,18 @@ from metodo_pago import MetodoPago
 from excepciones import GastoError,DivisaError
 
 class ControlGasto:
-    def registrarGasto(self, fecha, valor, metodoPago: MetodoPago, tipoGasto: TipoGasto, divisa: Divisa):
+    def registrar_gasto(self, fecha, valor, metodo_pago: MetodoPago, tipo_gasto: TipoGasto, divisa: Divisa):
         """Crea y registra un nuevo gasto."""
         try:
-            gasto = Gasto(fecha, valor, metodoPago, tipoGasto, divisa)
-            gasto.convertirDivisa()
-            gasto.registrarGastoArchivo()
+            gasto = Gasto(fecha, valor, metodo_pago, tipo_gasto, divisa)
+            gasto.convertir_divisa()
+            gasto.registrar_gasto_archivo()
             return gasto
         except (GastoError, DivisaError) as e:
             print(f"Error al registrar el gasto: {e}")
             return None
 
-    def convertirDivisa(self, gasto):
+    def convertir_divisa(self, gasto):
         """Convierte la divisa de un gasto."""
         try:
             return gasto.convertirDivisa()
