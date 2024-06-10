@@ -1,0 +1,11 @@
+
+
+
+Destino: dvgd
+Fecha de Inicio: 2024-08-22
+Fecha Final: 2024-08-28
+Presupuesto Diario: 20000.0
+Tipo de Viaje: nacional
+Divisa: COP
+Fecha: 2024-08-26, Valor: 10000.0, Metodo de Pago: efectivo, Tipo de Gasto: transporte, Divisa: COP
+

@@ -88,7 +88,6 @@ def main():
 
             print(f"Presupuesto restante para el día {fecha.strftime('%Y-%m-%d')}: {viaje.calcularPresupuestoRestanteDia(fecha)}")
             print(f"Presupuesto total: {viaje.calcularPresupuestoTotal()}")
-            print(f"Presupuesto restante total hasta la fecha: {viaje.calcularPresupuestoRestanteTotal()}")
 
             otraEntrada = input("¿Desea registrar otro gasto? (sí/no): ")
             if otraEntrada.lower() != 'si':

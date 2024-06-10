@@ -56,13 +56,6 @@ class Viaje:
         presupuesto_restante = self.presupuestoDiario - total_gastado
         return presupuesto_restante
 
-    def calcularPresupuestoRestanteTotal(self):
-        """Calcula el presupuesto restante total del viaje hasta la fecha actual."""
-        total_gastado = sum(gasto.valor for gasto in self.gastos)
-        dias_pasados = (datetime.now().date() - self.fechaInicio.date()).days + 1
-        presupuesto_total_gastado = self.presupuestoDiario * dias_pasados - total_gastado
-        return presupuesto_total_gastado
-
     def calcularPresupuestoTotal(self):
         """Calcula el presupuesto total del viaje."""
         dias_viaje = (self.fechaFinal - self.fechaInicio).days + 1
